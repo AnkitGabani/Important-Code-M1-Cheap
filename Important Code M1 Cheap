@@ -6,3 +6,8 @@ post_install do |installer|
     config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
   end
 end
+
+
+
+sudo arch -x86_64 gem install ffi
+arch -x86_64 pod install
